@@ -1,0 +1,73 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.CharacterContainer {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 5px;
+}
+
+.textStyle {
+    color: #efd25c;
+    font-size: large;
+    font-weight: 500;
+}
+
+.selectStyle {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    min-width: 275px;
+    width: 1fr;
+    outline: none;
+    padding-left: 5px;
+    padding-bottom: 2px;
+    color: #efd25c;
+}
+
+.levelStyler {
+    display: flex;
+    flex-direction: row;
+}
+
+.levelStyler #text {
+    margin-right: 125px;
+}
+
+.lvlContainer {
+    display: flex;
+    width: 45px;
+    max-width: 138px;
+    justify-content: center;
+}
+
+.borderRow {
+    border-bottom: 1px solid rgba(65, 55, 55, 0.12);
+    margin-bottom: 5px;
+}
+
+
+.statStyler {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 4px!important;
+    padding-bottom: 4px!important;
+}
+
+.statStyler input {
+    color: #efd25c;
+    position: relative;
+    width: 45px;
+    max-width: 138px;
+    text-align: center;  
+}
+
+.statStyler button {
+    color: #efd25c;
+    padding: 6px 8px;
+}

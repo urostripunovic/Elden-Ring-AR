@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Optimus Princeps";
+	/* you'd have to download the font somewhere */
+	src: url('/OptimusPrinceps.ttf') format('ttf');
+}
+* {
+    background-color: #4b5563;
+}
+
+.mainContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0rem 2rem 0rem;
+    transform: translate(0%, 50%);
+}
+
+.mainContainer .borderShadow {
+    display: flex;
+    /*border-radius: 50px;
+    box-shadow: 33px 33px 66px #666666,
+        -33px -33px 66px #ffffff;*/
+}
