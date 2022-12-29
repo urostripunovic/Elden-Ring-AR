@@ -4,5 +4,5 @@ An Elden Ring Calculator powered by ReactJS using images and values provided by 
 
 ### [Link to the calculator](https://glittery-jalebi-177edf.netlify.app)
 
-### [If you want to read the documentation, here you go](https://github.com/urostripunovic/Elden-Ring-AR-Calc/blob/master/Documentation.md)
+### [If you want to read the documentation, here you go](https://github.com/urostripunovic/Elden-Ring-AR/blob/master/Documentation.md)
 ---
