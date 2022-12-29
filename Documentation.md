@@ -16,7 +16,7 @@ In this file you'll see my thought process throught the project, where I got stu
 - ~~Remove DRY in `ComponentDidUpdate` and `weaponConditions` functions. Don't know how to solve it since having Object.keys vs Array is... yeah was harder than expected. I'll need to revisit this after.~~ After some sleep I solved it by converting my obj to an array so that I could eliminate the DRY.
 - ~~Crossbows break the site.~~
 - ~~You need to choose another weapon before the calc is updated since the sheets are loaded to slowely. I could solve it by not displaying a weapon at the start but oh well...~~ I added a loaded state in the `DisplayComponent`, it takes some time to load but that is given 'cos of the large sheet files. 
-- ~~Apparently there is a special scaling for the arc stat which I didn't know and can't find in the sheets...~~ I studied the code of [TimPoulton's elden ring ar calc](https://github.com/TomPoulton/elden-ring-damage-calculator/blob/main/js/calc/scaling.js) and noticed that the do not use the exponent growth for Arc scaling weapons.
+- ~~Apparently there is a special scaling for the arc stat which I didn't know and can't find in the sheets...~~ I studied the code of [TimPoulton's elden ring ar calc](https://github.com/TomPoulton/elden-ring-damage-calculator/blob/main/js/calc/scaling.js) and noticed that they do not use a exponent growth table for Arc scaling weapons.
 ---
 ##### TODO:
 - DisplayComponent
